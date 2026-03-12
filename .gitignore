@@ -1,0 +1,16 @@
+# OpenClaw runtime files
+.openclaw/
+.clawhub/
+node_modules/
+*.log
+.DS_Store
+
+# Secrets
+.env
+.secrets
+*.key
+*.pem
+
+# OS files
+Thumbs.db
+skills/proactive-agent/

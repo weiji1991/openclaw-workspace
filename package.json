@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "clawhub": "^0.7.0"
+  },
+  "devDependencies": {
+    "mcporter": "^0.7.3"
+  }
+}
