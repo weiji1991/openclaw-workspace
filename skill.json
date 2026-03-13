@@ -1,0 +1,26 @@
+{
+  "name": "mcporter",
+  "version": "0.7.3",
+  "description": "MCP (Model Context Protocol) server management tool",
+  "author": "steipete",
+  "bin": {
+    "mcporter": "./mcporter.sh"
+  },
+  "commands": [
+    {
+      "name": "list",
+      "description": "List all configured MCP servers",
+      "exec": "./mcporter.sh list"
+    },
+    {
+      "name": "run",
+      "description": "Run a specific MCP server",
+      "exec": "./mcporter.sh run {server}"
+    },
+    {
+      "name": "call",
+      "description": "Call a tool on an MCP server",
+      "exec": "./mcporter.sh call {server} {tool} {args}"
+    }
+  ]
+}
